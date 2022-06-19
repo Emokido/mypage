@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTPOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function login_window(){
+            window.open("login.html","로그인","width=500px height=240px,top=100, left=600");
+        }
+        function join_window() {
+            window.open("join.html","회원가입","width=500px height=520px,top=100, left=600");
+        }
+    </script>
+</head>
+<body>
+    <div class="frame">
+
+        <header id="head">
+            <div id="name">
+                LET'S GET BREAD!
+            </div>
+
+            <div id="login">
+                <a class="nav-menu" href="#" onclick="login_window()">로그인</a>
+                <a class="nav-menu" href="#" onclick="join_window()">회원가입</a>
+            </div>
+        </header>
+
+
+        <nav class="navigator">
+            <h3 class="time">00:00:00</h3>
+            <ul>
+                <li><a href="index.html" class="nav-menu">WORK</a></li>
+                <li><a href="info.html" class="nav-menu">INFO</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="dashboard">
+            <h1 class="myName">안녕하세요! 제 이름은 <a class="sample">박현모
+            </a>입니다.<br>
+            <a class="highlight type1">다양한 디저트</a>를 마음껏 
+            <a class="highlight type2">먹으러 다니는</a>
+            <a class="highlight type3">개발자</a>가 되기를 희망합니다.</h1>
+            <p class="wiseSaying"></p>
+        </div>
+
+        
+        <h5 class="recent-menu">RECENT EATS</h5>
+
+        <article class="recent-works">
+        <div class="article" id = "art1">
+            <img class="thumbnail" id="thumb1" src="images/caca.png">
+            <div class="article-info">
+                <h3 class="article-name">까눌레(canelé)</h3>
+                <p class="article-comment"> 프랑스의 조그마한 패스트리다. <br>겉면은 카라멜화되어 검고 두꺼운 반면,속은 촉촉하고 부드러운 커스터드맛이다.<br>
+                    럼과 바닐라로 맛을 내었으며, 윗부분이 움푹 들어간 조그만 줄무늬 황동틀(약 5cm 크기)에 찍어낸 모양이다.<br>
+                    카늘레의 기원은 프랑스 보르도의 안농시아드 수도원이라는 곳에서 제작한 것으로 여겨지며, 그 시기는 15세기나 18세기 즈음으로 추정되고 있다.<br>
+                    최근에 너무 맛있게 먹은 디저트ㅎㅎ</p>
+            </div>
+        </div>
+
+        <div class="article" id = "art2">
+            <div class="article-info">
+                <h3 class="article-name">소 금 빵 !</h3>
+                <p class="article-comment">소금빵은 일본이 원조다. 그래서 국내서도 일본어로 소금을 뜻하는 '시오(しお)'를 붙여 시오빵이라는 이름으로 불리기도 한다.<br>
+                    일본의 빵 가게 '팡 메종'에서 빵의 맛을 살리고 무더운 날씨에 땀으로 배출된 염분도 보충할 겸 빵 위에 소금을 뿌려 만든 데서 유래됐다.<br>
+                    소금빵은 평범하다 못해 소박한 모양이다. 그러나 한 입 베어 물면 입 안 가득 퍼지는 버터의 풍미와 짭짤한 소금의 맛이 절묘하게 어우러진다.<br>
+                    묘하게 자극적이어서 손이 가는 맛!
+                </p>
+            </div>
+            
+
+            <img class="thumbnail" id="thumb2" src="images/saltbread.jpg">
+        </div>
+        </article>
+
+
+        <footer class="footer">
+                <h3 class="contact">CONTACT ME</h3>
+                <div class="links">
+                    <a class="blog" href="https://blog.naver.com/gusah0p" target="_blangk">BLOG</a>
+                    <a class="instargram" href="https://www.instagram.com/hyun_what/" target="_blangk">INSTARGRAM</a>
+                </div>
+                <p>Feel free to contact me!</p>
+        </footer>
+    </div>
+    <script src="javascript/clock.js"></script>
+    <script src="javascript/wiseSaying.js"></script>
+</body>
+</html>
